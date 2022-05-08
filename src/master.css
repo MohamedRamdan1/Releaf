@@ -39,3 +39,18 @@ main section:first-child {
     height: 100%;
     transition: 1s;
 }
+.earth{
+    animation: earthMoving 1s ease-in-out infinite alternate ;
+}
+@keyframes earthMoving{
+    0%{
+        filter: drop-shadow( 0 0 0 orange);
+        /* filter: grayscale(0%); */
+        margin-top: 0;
+    }
+    100%{
+        filter: drop-shadow( 0 0 15px rgb(255, 89, 0));
+        /* filter: grayscale(100%); */
+        margin-top: 40px;
+    }
+}
