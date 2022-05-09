@@ -20,6 +20,13 @@ main section:first-child {
         main section:first-child {
         background-image: url(/imgs/bg.jpg);
     }
+    .tipsCon{
+        min-height: 120px;
+    }
+    main section:nth-child(3) {
+        background-position-x: 0px;
+        background-position-y: -200px;
+}
 }
 @media (min-width:1024px) {
         main section:first-child article{
@@ -53,4 +60,18 @@ main section:first-child {
         /* filter: grayscale(100%); */
         margin-top: 40px;
     }
+}
+
+main section:nth-child(3) {
+    background-image: url(/imgs/tips.jpg);
+    /* background-position-x: -500px; */
+}
+.tipsGridCon{
+    grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
+}
+.tipsCon h4{
+    font-size: 1.5rem;
+}
+.tipsCon p{
+    color: rgb(226 232 240);
 }

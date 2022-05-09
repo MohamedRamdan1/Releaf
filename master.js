@@ -33,7 +33,7 @@ menuBtn.addEventListener("click", function () {
 });
 
 window.onscroll=function(){
-    if(window.scrollY >= section2.offsetTop-400){
+    if(window.scrollY >= section2.offsetTop-300){
         movingspan.forEach((span)=>{
             span.style.width = span.dataset.width;
             if (span.dataset.width <= '10%') {
