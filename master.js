@@ -1,21 +1,24 @@
 const menuBtn = document.getElementById("menuBtn");
 const menuContents = document.getElementById("menuContents");
+const releafH2 = document.getElementById("releaf")
 
-const span1 = document.getElementById("span1");
-const span2 = document.getElementById("span2");
-const span3 = document.getElementById("span3");
-const span4 = document.getElementById("span4");
+// const span1 = document.getElementById("span1");
+// const span2 = document.getElementById("span2");
+// const span3 = document.getElementById("span3");
+// const span4 = document.getElementById("span4");
 
-const p1 = document.getElementById("p1");
-const p2 = document.getElementById("p2");
-const p3 = document.getElementById("p3");
-const p4 = document.getElementById("p4");
+// const p1 = document.getElementById("p1");
+// const p2 = document.getElementById("p2");
+// const p3 = document.getElementById("p3");
+// const p4 = document.getElementById("p4");
 
 
 
 const section2 = document.getElementById("section2");
 const movingspan = document.querySelectorAll(".graphContainer span");
 const percentage = document.querySelectorAll(".percentage");
+
+
 
 window.onscroll=function(){
     if(window.scrollY >= section2.offsetTop-300){
@@ -34,7 +37,9 @@ window.onscroll=function(){
 }
 
 menuBtn.addEventListener("click", function () {
-    menuContents.classList.toggle("-right-64");
+    menuContents.classList.toggle("-right-639");
+    menuBtn.classList.toggle("fixed");
+    menuBtn.classList.toggle("relative");
     span2.classList.toggle("hidden");
 
     span1.classList.toggle("rotate-45");
