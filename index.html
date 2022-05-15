@@ -21,23 +21,8 @@
             <div class="banner sm:h-screen px-10 md:px-32 lg:px-56 flex flex-col items-center sm:items-start">
                 <nav class=" z-10 w-full h-16 pt-3  flex justify-between items-center">
                     <div class="flex items-center">
-                        <div class=" w-14 mr-12 md:mr-12 lg:mr-24">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="48" viewBox="0 0 172 172"
-                                style=" fill:#000000;">
-                                <g fill="none" fill-rule="nonzero" stroke="none" cursor="pointer" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
-                                    stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g>
-                                        <path
-                                            d="M157.60217,84.69208c0.24725,-15.26858 -3.19275,-33.42533 -10.35942,-54.72825l-5.61867,-16.7055l-7.6325,15.88492c-0.4085,0.84925 -0.87433,1.68058 -1.36167,2.50117c-12.53808,-10.76433 -28.80642,-17.31108 -46.62992,-17.31108c-39.5815,0 -71.66667,32.08517 -71.66667,71.66667c0,39.5815 32.08517,71.66667 71.66667,71.66667c39.5815,0 71.66667,-32.08517 71.66667,-71.66667c0,-0.44075 -0.05733,-0.86717 -0.0645,-1.30792z"
-                                            fill="#e6f3f2"></path>
-                                        <path
-                                            d="M141.12958,116.66617c-11.19075,15.4155 -30.99942,16.24325 -49.6435,15.91717h-24.29858h-6.9445c15.867,-5.70825 25.30908,-7.06633 34.95183,-12.18333c18.16033,-9.54958 36.11283,-30.444 39.85025,-52.1805c-6.91583,20.91233 -27.87475,38.87917 -46.97392,46.18558c-13.08633,4.99158 -36.722,9.83625 -36.722,9.83625l-0.95675,-0.51958c-16.08917,-8.09475 -16.5765,-44.12158 12.67425,-55.75308c12.80683,-5.09908 25.05825,-2.29692 38.8935,-5.70825c14.7705,-3.62633 31.85583,-15.07867 38.8075,-30.01042c7.783,23.89008 17.14983,61.2965 0.36192,84.41617zM56.14367,137.76125c-1.0105,1.25417 -2.55492,1.98875 -4.16742,1.98875c-2.94908,0 -5.35708,-2.42592 -5.35708,-5.375c0,-2.94908 2.42592,-5.375 5.35708,-5.375c1.22192,0 2.42592,0.42283 3.37192,1.204c2.29333,1.85975 2.65167,5.26392 0.7955,7.55725z"
-                                            fill="#8bc34a"></path>
-                                    </g>
-                                </g>
-                            </svg>
+                        <div class=" mr-12 md:mr-12 lg:mr-24 cursor-pointer">
+                            <i class="fa-solid fa-leaf text-white text-3xl"></i>
                         </div>
                         <!-- <p class=" text-white text-sm mr-12 md:mr-12 lg:mr-24">Logo</p> -->
                         <ul class=" hidden sm:block ">
@@ -53,14 +38,14 @@
                     <button class="bg-white px-2.5 py-1 rounded-full hidden sm:block ml-4">Donate!</button>
                     <div id="menuBtn"
                         class="sm:hidden z-10 flex flex-col gap-0.5 items-center justify-center w-8 h-7 p-1">
-                        <span id="span1" class="w-5 h-1 bg-cyan-100 rounded-full duration-300"></span>
-                        <span id="span2" class="w-5 h-1 bg-cyan-100 rounded-full"></span>
-                        <span id="span3" class="w-5 h-1 bg-cyan-100 rounded-full duration-300"></span>
+                        <span id="span1" class="w-5 h-1 bg-white rounded-full duration-300"></span>
+                        <span id="span2" class="w-5 h-1 bg-white rounded-full"></span>
+                        <span id="span3" class="w-5 h-1 bg-white rounded-full duration-300"></span>
                     </div>
                     <div class="w-screen h-full top-0 right-0 absolute sm:hidden overflow-hidden">
-                        <div id="menuContents" class="menuContents w-screen h-full p-8 -right-639 bg-cyan-400 fixed">
+                        <div id="menuContents" class="menuContents transition-all duration-500 w-screen h-full p-8 -right-639 bg-cyan-500 fixed">
                             <ul class="">
-                                <li class=" flex flex-col gap-3 text-white">
+                                <li class=" flex flex-col gap-8 text-white text-xl">
                                     <a href="#">Home</a>
                                     <a href="#">Overview</a>
                                     <a href="#">Tips</a>
@@ -68,19 +53,26 @@
                                     <a href="#">Contact</a>
                                 </li>
                             </ul>
-                            <hr class="mt-6">
-                            <button class="bg-white text-cyan-400 px-2.5 py-1 rounded-full mt-6 ">Donate!</button>
+                            <hr class="bg-white my-8">
+                            <button class="bg-white text-cyan-500 px-2.5 py-1 rounded-full text-xl ">Donate!</button>
+                            <hr class="bg-white my-8">
+                            <div class="flex gap-8">
+                                <a href="https://www.facebook.com" target="_blanc"><i class="fa-brands fa-facebook text-white text-3xl"></i></a>
+                                <a href="https://www.twitter.com" target="_blanc"><i class="fa-brands fa-twitter text-white text-3xl"></i></a>
+                                <a href="https://www.linkedin.com" target="_blanc"><i class="fa-brands fa-linkedin text-white text-3xl"></i></a>
+                                <a href="https://www.whatsapp.com" target="_blanc"><i class="fa-brands fa-whatsapp text-white text-3xl"></i></a>
+                            </div>
                         </div>
                     </div>
                 </nav>
-                <article class=" w-72 mt-32 sm:mt-44 sm:w-96">
+                <article class=" w-72 mt-36 sm:mt-44 sm:w-96">
                     <h2 id="releaf" class="text-white font-bold opacity-0 text-5xl text-center sm:text-8xl sm:text-left lg:text-9xl ml-24">Releaf</h2>
                     <p class="mb-24 sm:mb-0 text-gray-200 text-xl text-center sm:text-left opacity-0">Environment is worth saving.</p>
                 </article>
             </div>
         </section>
-        <section id="section2" class="bg-slate-50 py-12 sm:py-16 px-10 md:px-32 lg:px-56 flex flex-col items-center">
-            <h3 class="text-2xl lg:text-3xl">In the last 30 years...</h3>
+        <section id="section2" class="bg-slate-50 py-12 sm:py-16 px-10 md:px-32 lg:px-56">
+            <h3 class="text-2xl lg:text-3xl text-center">In the last 30 years...</h3>
 
             <div class="sm:mt-10 sm:w-full sm:flex flex-row gap-3 items-center">
 
@@ -162,7 +154,27 @@
 
             </div>
         </section>
-        <section></section>
+        <section class="py-12 sm:py-16 px-10 md:px-32 lg:px-56">
+            <h3 class="text-center text-2xl lg:text-3xl">Our Stats</h3>
+            <div class="grid items-center gap-4 text-center">
+                <div>
+                    <i class="fa-solid fa-users"></i>
+                    <p><span>1433</span><br>People joined</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-pagelines"></i>
+                    <p><span>1433</span><br>Trees planted</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-umbrella-beach"></i>
+                    <p><span>1433</span><br>Beach cleaned</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-award"></i>
+                    <p><span>1433</span><br>Awards received</p>
+                </div>
+            </div>
+        </section>
         <section></section>
         <section></section>
     </main>

@@ -8,13 +8,16 @@
     --sectionPadding: 
 } */
 
-li a {
+a {
     text-decoration: none;
+}
+ul li a:hover{
+    color: rgb(207 250 254);
 }
 
 main section:first-child {
     background-image: url(/imgs/bgs.png);
-    min-height: 472px;
+    min-height: 532px;
 }
 
 main section:first-child article h2{
@@ -25,9 +28,6 @@ main section:first-child article p{
 }
 .-right-639{
     right: -639px;
-}
-.menuContents{
-    transition: 0.5s;
 }
 @keyframes releaf{
     0%{
@@ -51,10 +51,10 @@ main section:first-child article p{
 }
 @media (min-width:768px) {
         main section:first-child {
-        background-image: url(/imgs/bg.png);
+        background-image: url(/imgs/bg.jpg);
         }
         .topBanner{
-        background-image: url(/imgs/bgpngst.png);
+        background-image: url(/imgs/bgpngst2.png);
         }
     .tipsCon{
         min-height: 120px;
@@ -121,4 +121,9 @@ main section:nth-child(3) {
 }
 .tipsCon p{
     color: rgb(226 232 240);
+}
+main section:nth-child(4) > div{
+    grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
+    grid-column-start: 1;
+    grid-column-end: 5;
 }

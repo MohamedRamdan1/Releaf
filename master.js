@@ -38,6 +38,7 @@ window.onscroll=function(){
 
 menuBtn.addEventListener("click", function () {
     menuContents.classList.toggle("-right-639");
+    menuContents.classList.toggle("right-0");
     menuBtn.classList.toggle("fixed");
     menuBtn.classList.toggle("relative");
     span2.classList.toggle("hidden");
