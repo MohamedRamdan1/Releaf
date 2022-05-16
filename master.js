@@ -41,6 +41,8 @@ menuBtn.addEventListener("click", function () {
     menuContents.classList.toggle("right-0");
     menuBtn.classList.toggle("fixed");
     menuBtn.classList.toggle("relative");
+    document.body.classList.toggle("disableScrolling");
+
     span2.classList.toggle("hidden");
 
     span1.classList.toggle("rotate-45");
